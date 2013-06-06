@@ -21,7 +21,7 @@ classNetFunctions.prototype = {
             timeout: 6000,
             error: eval(err_function)
         });
-        return false;	
+        return "hola";	
     },
     error
     r_callService: function(isAsync, urlService, params, method, bs_function){
