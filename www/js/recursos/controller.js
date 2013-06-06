@@ -17,6 +17,11 @@ function init(){
     $("#btnLogin").on("click", function(){
         login();
     });
+    $("#inputPassword").keyup(function(event){
+        if(event.keyCode == 13){
+            login();
+        }
+    });
 }
 
 function verificarLogin(){
